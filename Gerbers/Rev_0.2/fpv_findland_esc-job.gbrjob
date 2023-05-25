@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.2"
+      "Version": "7.0.4"
     },
-    "CreationDate": "2023-05-24T20:20:14+03:00"
+    "CreationDate": "2023-05-25T14:45:12+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Slimmeri_GD32",
-      "GUID": "536c696d-6d65-4726-995f-474433322e6b",
-      "Revision": "rev?"
+      "Name": "fpv_findland_esc",
+      "GUID": "6670765f-6669-46e6-946c-616e645f6573",
+      "Revision": "Rev_0.2"
     },
     "Size": {
-      "X": 36.1,
-      "Y": 47.55
+      "X": 36.2,
+      "Y": 47.65
     },
     "LayerNumber": 6,
     "BoardThickness": 1.6,
@@ -43,67 +43,67 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Slimmeri_GD32-F_Cu.gbr",
+      "Path": "fpv_findland_esc-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-In1_Cu.gbr",
+      "Path": "fpv_findland_esc-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-In2_Cu.gbr",
+      "Path": "fpv_findland_esc-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-In3_Cu.gbr",
+      "Path": "fpv_findland_esc-In3_Cu.gbr",
       "FileFunction": "Copper,L4,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-In4_Cu.gbr",
+      "Path": "fpv_findland_esc-In4_Cu.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-B_Cu.gbr",
+      "Path": "fpv_findland_esc-B_Cu.gbr",
       "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-F_Paste.gbr",
+      "Path": "fpv_findland_esc-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-B_Paste.gbr",
+      "Path": "fpv_findland_esc-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-F_Silkscreen.gbr",
+      "Path": "fpv_findland_esc-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-B_Silkscreen.gbr",
+      "Path": "fpv_findland_esc-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slimmeri_GD32-F_Mask.gbr",
+      "Path": "fpv_findland_esc-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Slimmeri_GD32-B_Mask.gbr",
+      "Path": "fpv_findland_esc-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Slimmeri_GD32-Edge_Cuts.gbr",
+      "Path": "fpv_findland_esc-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

@@ -7,7 +7,7 @@
   (title_block
     (title "OpenHW_Findland_ESC")
     (date "2023-05-24")
-    (rev "0.1")
+    (rev "${revision}")
   )
 
   (lib_symbols
@@ -289,7 +289,6 @@
       )
     )
   )
-
 
   (junction (at 223.52 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 090f172b-cd7c-4d33-b5e3-8e159173b4a4)
@@ -1008,7 +1007,7 @@
     )
     (pin "1" (uuid adfc532c-a600-49bd-9669-4a29b908b4ef))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -1036,7 +1035,7 @@
     )
     (pin "1" (uuid 33471c94-8378-4089-8404-071de5566a73))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -1065,7 +1064,7 @@
     (pin "1" (uuid db8fe9e9-4405-4313-9fd1-b6f7e7fc1d08))
     (pin "2" (uuid 8365a980-32a3-4f3d-8a8d-22184c58b142))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C61") (unit 1)
         )
@@ -1095,7 +1094,7 @@
     (pin "2" (uuid c19f2b87-1d5a-42f1-97ed-858f599ea3ab))
     (pin "5" (uuid 2fa74687-82e2-4daa-b785-3785c078135a))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "U?") (unit 1)
         )
@@ -1133,7 +1132,7 @@
     (pin "1" (uuid b4eb198b-fd61-4181-9afb-48d9e083b18f))
     (pin "2" (uuid 1df69e33-61c6-4bfd-8077-7eaccf0d6d59))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C65") (unit 1)
         )
@@ -1159,7 +1158,7 @@
     (pin "1" (uuid 93c9430c-6687-4462-b014-582d9a968eb5))
     (pin "2" (uuid 3d16924f-b516-44cb-9284-121c8bc01cc4))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C66") (unit 1)
         )
@@ -1184,7 +1183,7 @@
     )
     (pin "1" (uuid e89a2307-a503-4333-9150-7cc029e15f16))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "TP14") (unit 1)
         )
@@ -1210,7 +1209,7 @@
     (pin "1" (uuid fd2f8a44-fec7-43ec-977a-39c0b3650fba))
     (pin "2" (uuid 33f022e3-8177-4268-8175-7a15273e56c5))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C71") (unit 1)
         )
@@ -1236,7 +1235,7 @@
     (pin "1" (uuid dc0999ae-cb9e-4a02-a34e-b66699282c84))
     (pin "2" (uuid c41651c3-14a3-4975-9c83-0049fb437372))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C58") (unit 1)
         )
@@ -1262,7 +1261,7 @@
     (pin "1" (uuid 6d464be4-f84f-47be-9aca-cba1930ad73b))
     (pin "2" (uuid cd61564d-d10d-4e83-8e27-6dae5e6eb0d6))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C47") (unit 1)
         )
@@ -1288,7 +1287,7 @@
     (pin "1" (uuid cfc97b34-c44f-4eb9-8b1c-fab82d1d88d1))
     (pin "2" (uuid a9b03850-008f-4b7e-b860-5da4e1636901))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C43") (unit 1)
         )
@@ -1314,7 +1313,7 @@
     (pin "1" (uuid e53a2bc9-fa9e-4ea5-b6f8-bda473288a7f))
     (pin "2" (uuid 90cbd5f4-f9c5-4694-9acd-988673469dec))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C69") (unit 1)
         )
@@ -1340,7 +1339,7 @@
     (pin "1" (uuid 659bde72-839f-4501-9344-bb3bf4c01274))
     (pin "2" (uuid 38b74ca9-a6aa-4087-b93e-574f86259009))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C63") (unit 1)
         )
@@ -1366,7 +1365,7 @@
     (pin "1" (uuid bdff4554-2827-4b0a-8077-32f0b34ff117))
     (pin "2" (uuid a39f45ae-2036-425c-abc5-53e0b98ed051))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C55") (unit 1)
         )
@@ -1391,7 +1390,7 @@
     )
     (pin "1" (uuid b78be27f-4dfb-494d-bba6-18fa1c1cdc88))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -1419,7 +1418,7 @@
     )
     (pin "1" (uuid 4949f001-1cd7-402b-9e88-808d1c8f2747))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -1448,7 +1447,7 @@
     (pin "1" (uuid 1c3e421d-3b7f-4d51-a5e9-6a07ef4ef528))
     (pin "2" (uuid 17ad4528-30a1-4ded-a713-37e6ab7b1159))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C49") (unit 1)
         )
@@ -1473,7 +1472,7 @@
     )
     (pin "1" (uuid 08139b7e-0315-4fba-aec0-c700e92fff3f))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -1501,7 +1500,7 @@
     )
     (pin "1" (uuid 698d788b-3919-4ce9-b722-c121b7bdc219))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "TP12") (unit 1)
         )
@@ -1526,7 +1525,7 @@
     )
     (pin "1" (uuid 874e6681-1362-401b-961e-a0b3b60684b0))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -1555,7 +1554,7 @@
     (pin "1" (uuid 1b4259dd-6f20-4135-bf07-cd10fa6f0d93))
     (pin "2" (uuid f6656750-9b61-4521-8216-de71790ef529))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C70") (unit 1)
         )
@@ -1580,7 +1579,7 @@
     )
     (pin "1" (uuid 791a2678-0c3a-4329-ac20-43256843e2d6))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "TP9") (unit 1)
         )
@@ -1610,7 +1609,7 @@
     (pin "2" (uuid 25bc10c2-fdfa-4097-8e4d-1053aff61e4c))
     (pin "3" (uuid 0771c945-08ca-4eec-8bc0-868a3c12c39b))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "U9") (unit 1)
         )
@@ -1636,7 +1635,7 @@
     (pin "1" (uuid 6db99425-b965-48de-8bfb-ff541ef02cbe))
     (pin "2" (uuid c11af3a6-50f3-4a01-883f-d5499e9aa0e1))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "C11") (unit 1)
         )
@@ -1674,7 +1673,7 @@
     (pin "1" (uuid d564babb-6d93-4d0a-9a36-af6cef7d51c6))
     (pin "2" (uuid 073d4268-44b7-4654-81fa-f8d09914b252))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C67") (unit 1)
         )
@@ -1700,7 +1699,7 @@
     (pin "1" (uuid 61da76e2-5d55-48e6-8a3b-9aba088ed15a))
     (pin "2" (uuid 676de3cc-3f5d-4d42-9d9f-f23a630f444b))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C51") (unit 1)
         )
@@ -1726,7 +1725,7 @@
     (pin "1" (uuid a3d75286-5964-4ae9-be33-000cc605c6b8))
     (pin "2" (uuid e2c444f8-6fee-40ef-a6d3-80967ae25543))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C45") (unit 1)
         )
@@ -1751,7 +1750,7 @@
     )
     (pin "1" (uuid 19274315-08da-47f9-968d-2f600dafb38e))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -1779,7 +1778,7 @@
     )
     (pin "1" (uuid 0c0bcabf-dcb9-449b-83b9-95a17c646209))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -1812,7 +1811,7 @@
     (pin "5" (uuid 5d5a7666-6032-44a5-bd2f-c13212e56d46))
     (pin "6" (uuid c7c83459-1eab-4fbe-ab75-65938b7d724e))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "J13") (unit 1)
         )
@@ -1838,7 +1837,7 @@
     (pin "1" (uuid 34219f13-6d79-4b5c-9b34-2595c6accc4b))
     (pin "2" (uuid 35840f3c-deb8-4da5-8729-e49e0bdd3c15))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C38") (unit 1)
         )
@@ -1864,7 +1863,7 @@
     (pin "1" (uuid ba14634c-0616-491b-9ce2-5422482b8aad))
     (pin "2" (uuid 922de68f-13fd-4962-9f27-032aeb762bbf))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C68") (unit 1)
         )
@@ -1890,7 +1889,7 @@
     (pin "1" (uuid 075afe52-21a2-49f5-a180-c802bb9a0585))
     (pin "2" (uuid 2ea269af-4fea-4801-9113-044c51c0f178))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C54") (unit 1)
         )
@@ -1915,7 +1914,7 @@
     )
     (pin "1" (uuid 1ac6e64d-2618-42ea-ae58-d08eea423508))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -1944,7 +1943,7 @@
     (pin "1" (uuid 8367156f-7599-4c08-89a6-09192142fbcf))
     (pin "2" (uuid 0668a22f-03fd-4707-9190-735d51905cec))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "C11") (unit 1)
         )
@@ -1982,7 +1981,7 @@
     (pin "1" (uuid d9a1665c-1cfd-47dd-b6e8-db131255c594))
     (pin "2" (uuid 8d073d9b-5cb7-4760-af7c-1698422232a2))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C62") (unit 1)
         )
@@ -2007,7 +2006,7 @@
     )
     (pin "1" (uuid a206b34d-0a56-4681-b4b0-551c27e411d3))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "TP11") (unit 1)
         )
@@ -2032,7 +2031,7 @@
     )
     (pin "1" (uuid e4f1c2e5-e205-414a-bd40-381def6233f5))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -2060,7 +2059,7 @@
     )
     (pin "1" (uuid 1298e8bb-3d5a-459c-bafd-a1378d58173e))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "TP10") (unit 1)
         )
@@ -2085,7 +2084,7 @@
     )
     (pin "1" (uuid 9fb920e2-4663-405a-afd4-25fc3142d742))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -2114,7 +2113,7 @@
     (pin "1" (uuid 98abacbf-16bc-48d0-a773-66083c76932b))
     (pin "2" (uuid ea9c283e-c4c3-403e-86f8-287352143ae7))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C59") (unit 1)
         )
@@ -2140,7 +2139,7 @@
     (pin "1" (uuid 00d65900-f67d-49dc-874d-fd78091144a1))
     (pin "2" (uuid b8ed8bcc-a840-4cdd-8bc1-ac27f6a802bc))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C50") (unit 1)
         )
@@ -2166,7 +2165,7 @@
     (pin "1" (uuid 0ae67f00-127f-4c72-a191-7bcaf897857d))
     (pin "2" (uuid 1c570c05-16ad-41cf-b955-c2759feb7fa8))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C37") (unit 1)
         )
@@ -2191,7 +2190,7 @@
     )
     (pin "1" (uuid 0cda449e-fecc-4f02-b242-8e323999ae04))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -2220,7 +2219,7 @@
     (pin "1" (uuid 2ab7b436-540a-4cbf-a9d8-dd87f55758e7))
     (pin "2" (uuid 42a89986-0103-4d5f-8b17-b97d3ccfbf21))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C39") (unit 1)
         )
@@ -2245,7 +2244,7 @@
     )
     (pin "1" (uuid d3919893-600b-49b2-84f7-935e119f6c05))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "TP13") (unit 1)
         )
@@ -2271,7 +2270,7 @@
     (pin "1" (uuid e189b289-828a-430b-b061-e6e8bd603d6e))
     (pin "2" (uuid ffc42645-a059-4839-a77a-fcf051c27747))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C40") (unit 1)
         )
@@ -2297,7 +2296,7 @@
     (pin "1" (uuid aec76295-76cb-4200-bdc0-1ddc670f759f))
     (pin "2" (uuid e0abfa05-987e-47ba-9820-8a6aef5e5b70))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C46") (unit 1)
         )
@@ -2322,7 +2321,7 @@
     )
     (pin "1" (uuid 25c36e59-eede-4eb8-92e7-ea2cc13ecab3))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -2350,7 +2349,7 @@
     )
     (pin "1" (uuid 094f14d7-f335-4257-b32f-d0f396b5a6b3))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -2379,7 +2378,7 @@
     (pin "1" (uuid f0fbc758-1762-4b38-91a2-c832e8bcfad0))
     (pin "2" (uuid b5d009cd-c62a-46d8-995e-a9ef282bac4b))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C53") (unit 1)
         )
@@ -2405,7 +2404,7 @@
     (pin "1" (uuid c805e430-0e32-4b2f-801e-3734d28fcff3))
     (pin "2" (uuid 84bf36b1-8d3a-450f-94f7-8430f4889afd))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "C11") (unit 1)
         )
@@ -2442,7 +2441,7 @@
     )
     (pin "1" (uuid 3a314da5-ca7b-4e81-8c90-8acc6a4bff46))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "#PWR013") (unit 1)
         )
@@ -2471,7 +2470,7 @@
     (pin "1" (uuid 9ae897ac-9d12-4441-8bca-15e565fdb10b))
     (pin "2" (uuid fadb13d8-c552-432b-9f67-a48d3c354a0f))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C64") (unit 1)
         )
@@ -2497,7 +2496,7 @@
     (pin "1" (uuid ec35f0eb-0dea-471d-aefb-7120fcf2cd3a))
     (pin "2" (uuid 49d66164-538f-471e-bff8-080ba3edfbb3))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C52") (unit 1)
         )
@@ -2523,7 +2522,7 @@
     (pin "1" (uuid 76e840a2-32a3-4679-b9c7-8b092ff420ba))
     (pin "2" (uuid 57205689-6af5-4be2-8541-27e23d671623))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C48") (unit 1)
         )
@@ -2549,7 +2548,7 @@
     (pin "1" (uuid ff9839c0-aa97-4e03-8252-a71af123321c))
     (pin "2" (uuid c841616c-d49f-4738-aab1-c0e6476c6844))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C60") (unit 1)
         )
@@ -2575,7 +2574,7 @@
     (pin "1" (uuid 30142d24-d0c9-4811-9ea9-596e1439c662))
     (pin "2" (uuid 5da1aba4-05e4-4bc9-a377-9d09b0ae2655))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C44") (unit 1)
         )
@@ -2601,7 +2600,7 @@
     (pin "1" (uuid 58c20819-c562-4556-9f4e-8df133a67492))
     (pin "2" (uuid 3d3ad4dc-b70b-4e7a-8875-ce188c401fbb))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
           (reference "C11") (unit 1)
         )
@@ -2639,7 +2638,7 @@
     (pin "1" (uuid 80cc10a9-7b0f-4333-81cd-5d9fec65051f))
     (pin "2" (uuid facd091d-1057-423a-b56c-f46ab9a38f9c))
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61"
           (reference "C57") (unit 1)
         )
@@ -2674,7 +2673,7 @@
       (uuid 8fa11de8-3e94-4dbc-87d5-5a8c61c7f263)
     )
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61" (page "5"))
       )
     )
@@ -2707,7 +2706,7 @@
       (uuid 755994b4-a44a-4e52-9081-12e076337640)
     )
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61" (page "4"))
       )
     )
@@ -2740,7 +2739,7 @@
       (uuid 215d7e41-70d8-4480-b6a3-637c77f66ba3)
     )
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61" (page "3"))
       )
     )
@@ -2773,7 +2772,7 @@
       (uuid 93e73e60-9a4f-4028-9d6d-9f5ffd446461)
     )
     (instances
-      (project "Slimmeri_GD32"
+      (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61" (page "2"))
       )
     )
