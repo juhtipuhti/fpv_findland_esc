@@ -638,7 +638,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2211080530_STMicroelectronics-ST732M50R_C3747922.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LSCS" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_STMicroelectronics-ST732M50R_C3747922.html" (at 0 0 0)
+    (property "LCSC" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_STMicroelectronics-ST732M50R_C3747922.html" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ST732M50R_1_0"
@@ -906,7 +906,7 @@
     (property "Datasheet" "https://www.mouser.fi/datasheet/2/395/TS3480_D1810-1918515.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LSCS" "none" (at 0 0 0)
+    (property "LCSC" "none" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TS3480CX33_0_0"
@@ -943,7 +943,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912260914_WILLSEMI-Will-Semicon-WL2851E33-5-TR_C467852.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LSCS" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_WILLSEMI-Will-Semicon-WL2851E33-5-TR_C467852.html" (at 0 0 0)
+    (property "LCSC" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_WILLSEMI-Will-Semicon-WL2851E33-5-TR_C467852.html" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "WL2851E33_1_0"

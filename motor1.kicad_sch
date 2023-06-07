@@ -1574,7 +1574,7 @@
   (symbol (lib_id "Device:C") (at 62.23 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08f983e9-57a9-4911-8147-482c894c056d)
-    (property "Reference" "C13" (at 62.23 39.37 0)
+    (property "Reference" "C21" (at 62.23 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 59.69 39.37 0)
@@ -1591,16 +1591,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "C13") (unit 1)
+          (reference "C21") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "C8") (unit 1)
+          (reference "C20") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "C18") (unit 1)
+          (reference "C4") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "C25") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1609,7 +1609,7 @@
   (symbol (lib_id "OpenHW:FDMC8010DC") (at 215.9 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ce2d22f-4d17-4cff-a9dc-8f450369c8fe)
-    (property "Reference" "Q2" (at 222.25 32.385 0)
+    (property "Reference" "Q21" (at 222.25 32.385 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FDMC8010DC" (at 222.25 34.925 0)
@@ -1632,16 +1632,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "Q2") (unit 1)
+          (reference "Q21") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "Q7") (unit 1)
+          (reference "Q14") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "Q13") (unit 1)
+          (reference "Q17") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "Q19") (unit 1)
+          (reference "Q23") (unit 1)
         )
       )
     )
@@ -1650,7 +1650,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 259.08 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14fc4379-54b7-4444-9ec6-f675799c1f16)
-    (property "Reference" "RN5" (at 259.08 78.74 90)
+    (property "Reference" "RN15" (at 259.08 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 259.08 81.28 90)
@@ -1669,16 +1669,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "RN5") (unit 1)
+          (reference "RN15") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "RN16") (unit 1)
+          (reference "RN20") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "RN24") (unit 1)
+          (reference "RN1") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "RN32") (unit 1)
+          (reference "RN9") (unit 1)
         )
       )
     )
@@ -1755,7 +1755,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 259.08 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f518bb6-15fa-4b2d-a9ba-4a11bad99e93)
-    (property "Reference" "RN6" (at 259.08 36.83 90)
+    (property "Reference" "RN14" (at 259.08 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 259.08 39.37 90)
@@ -1774,25 +1774,25 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "RN6") (unit 1)
-        )
-        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
           (reference "RN14") (unit 1)
         )
+        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
+          (reference "RN6") (unit 1)
+        )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "RN22") (unit 1)
+          (reference "RN5") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "RN30") (unit 1)
+          (reference "RN8") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 121.92 68.58 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 253a4d70-19e1-488b-bbd0-2209aee11e9b)
-    (property "Reference" "TP2" (at 125.222 63.5 90)
+    (property "Reference" "TP10" (at 125.222 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 125.222 66.04 90)
@@ -1808,16 +1808,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "TP2") (unit 1)
+          (reference "TP10") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "TP4") (unit 1)
-        )
-        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
           (reference "TP6") (unit 1)
         )
+        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
+          (reference "TP3") (unit 1)
+        )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "TP8") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -1860,7 +1860,7 @@
   (symbol (lib_id "OpenHW:FDMC8010DC") (at 215.9 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36215ada-1e82-43e5-9145-c9b7c67f8a12)
-    (property "Reference" "Q6" (at 222.25 132.715 0)
+    (property "Reference" "Q11" (at 222.25 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FDMC8010DC" (at 222.25 135.255 0)
@@ -1883,16 +1883,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "Q6") (unit 1)
+          (reference "Q11") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "Q12") (unit 1)
+          (reference "Q3") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "Q18") (unit 1)
+          (reference "Q2") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "Q24") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -1901,7 +1901,7 @@
   (symbol (lib_id "OpenHW:DRV8300D") (at 86.36 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a2eb18f-367d-47ec-b19a-25e7de080aee)
-    (property "Reference" "U2" (at 86.36 110.49 0)
+    (property "Reference" "U9" (at 86.36 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8300D" (at 86.36 113.03 0)
@@ -1944,13 +1944,13 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "U2") (unit 1)
+          (reference "U9") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "U4") (unit 1)
+          (reference "U10") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "U6") (unit 1)
+          (reference "U7") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
           (reference "U8") (unit 1)
@@ -1962,7 +1962,7 @@
   (symbol (lib_id "Device:C") (at 54.61 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b625f14-c1f2-4339-8e4c-6c2185344a8b)
-    (property "Reference" "C11" (at 52.07 113.03 0)
+    (property "Reference" "C62" (at 52.07 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 52.07 115.57 0)
@@ -1979,16 +1979,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "C11") (unit 1)
+          (reference "C62") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "C7") (unit 1)
+          (reference "C52") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "C17") (unit 1)
+          (reference "C38") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "C24") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
     )
@@ -1997,7 +1997,7 @@
   (symbol (lib_id "Device:C") (at 106.68 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5378f9bd-e859-47dc-a8ed-2bc33aaeba96)
-    (property "Reference" "C2" (at 109.22 127 90)
+    (property "Reference" "C57" (at 109.22 127 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 101.6 127 90)
@@ -2014,16 +2014,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "C2") (unit 1)
+          (reference "C57") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "C12") (unit 1)
+          (reference "C54") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "C20") (unit 1)
+          (reference "C46") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "C27") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -2032,7 +2032,7 @@
   (symbol (lib_id "Device:C") (at 49.53 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5546843f-fbea-4454-89cd-b26ae7669193)
-    (property "Reference" "C1" (at 46.99 33.02 0)
+    (property "Reference" "C28" (at 46.99 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 46.99 35.56 0)
@@ -2049,16 +2049,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "C1") (unit 1)
+          (reference "C28") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "C6") (unit 1)
+          (reference "C23") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "C16") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "C23") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -2101,7 +2101,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 257.81 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66dab19f-4028-4635-b701-324a5e0a8ed0)
-    (property "Reference" "RN8" (at 257.81 125.73 90)
+    (property "Reference" "RN12" (at 257.81 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 257.81 128.27 90)
@@ -2120,16 +2120,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "RN8") (unit 1)
+          (reference "RN12") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "RN13") (unit 1)
+          (reference "RN24") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "RN21") (unit 1)
+          (reference "RN3") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "RN29") (unit 1)
+          (reference "RN10") (unit 1)
         )
       )
     )
@@ -2138,7 +2138,7 @@
   (symbol (lib_id "OpenHW:FDMC8010DC") (at 215.9 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68f5884f-b1c4-4706-a45b-52d47a2f792c)
-    (property "Reference" "Q4" (at 222.25 89.535 0)
+    (property "Reference" "Q5" (at 222.25 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FDMC8010DC" (at 222.25 92.075 0)
@@ -2161,16 +2161,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "Q4") (unit 1)
+          (reference "Q5") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "Q10") (unit 1)
+          (reference "Q4") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "Q16") (unit 1)
+          (reference "Q10") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "Q22") (unit 1)
+          (reference "Q9") (unit 1)
         )
       )
     )
@@ -2211,9 +2211,9 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 180.34 85.09 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79b0d427-451c-4c62-8dd8-4edb7ca93060)
-    (property "Reference" "J2" (at 179.705 81.28 0)
+    (property "Reference" "J8" (at 179.705 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 179.705 83.82 0)
@@ -2229,16 +2229,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "J2") (unit 1)
-        )
-        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "J5") (unit 1)
-        )
-        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
           (reference "J8") (unit 1)
         )
+        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
+          (reference "J6") (unit 1)
+        )
+        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
+          (reference "J10") (unit 1)
+        )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "J11") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -2315,7 +2315,7 @@
   (symbol (lib_id "OpenHW:FDMC8010DC") (at 215.9 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98f2828e-bf75-4494-a7b0-0b8a16bcb54a)
-    (property "Reference" "Q1" (at 222.25 46.355 0)
+    (property "Reference" "Q6" (at 222.25 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FDMC8010DC" (at 222.25 48.895 0)
@@ -2338,16 +2338,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "Q1") (unit 1)
+          (reference "Q6") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "Q8") (unit 1)
+          (reference "Q1") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "Q14") (unit 1)
+          (reference "Q7") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "Q20") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
     )
@@ -2356,7 +2356,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 204.47 39.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9929fa83-f7cf-48ed-8d45-8ea4c5f5a8a1)
-    (property "Reference" "RN1" (at 204.47 34.29 90)
+    (property "Reference" "RN30" (at 204.47 34.29 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 204.47 36.83 90)
@@ -2375,16 +2375,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "RN1") (unit 1)
+          (reference "RN30") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "RN9") (unit 1)
+          (reference "RN26") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "RN17") (unit 1)
+          (reference "RN19") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "RN25") (unit 1)
+          (reference "RN21") (unit 1)
         )
       )
     )
@@ -2393,7 +2393,7 @@
   (symbol (lib_id "OpenHW:FDMC8010DC") (at 215.9 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab4ab9cb-3b90-46ae-bc65-b2582e9b997e)
-    (property "Reference" "Q5" (at 222.25 118.745 0)
+    (property "Reference" "Q24" (at 222.25 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FDMC8010DC" (at 222.25 121.285 0)
@@ -2416,16 +2416,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "Q5") (unit 1)
+          (reference "Q24") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "Q11") (unit 1)
+          (reference "Q19") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "Q17") (unit 1)
+          (reference "Q13") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "Q23") (unit 1)
+          (reference "Q15") (unit 1)
         )
       )
     )
@@ -2434,7 +2434,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 204.47 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac7cdcb9-ef96-4b89-8329-216fffe26a99)
-    (property "Reference" "RN3" (at 204.47 120.65 90)
+    (property "Reference" "RN31" (at 204.47 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 204.47 123.19 90)
@@ -2453,25 +2453,25 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "RN3") (unit 1)
+          (reference "RN31") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "RN11") (unit 1)
+          (reference "RN29") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "RN19") (unit 1)
+          (reference "RN17") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "RN27") (unit 1)
+          (reference "RN32") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 180.34 93.98 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b705974e-c153-4837-8c6e-0da1ea1b45ff)
-    (property "Reference" "J3" (at 179.705 90.17 0)
+    (property "Reference" "J5" (at 179.705 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 179.705 92.71 0)
@@ -2487,16 +2487,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "J6") (unit 1)
+          (reference "J4") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "J9") (unit 1)
+          (reference "J3") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "J12") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -2505,7 +2505,7 @@
   (symbol (lib_id "OpenHW:GD32E230G8U6") (at 86.36 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8ffaf87-a67f-4ed6-b4f2-5402520bb325)
-    (property "Reference" "U1" (at 86.36 30.48 0)
+    (property "Reference" "U3" (at 86.36 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GD32E230G8U6" (at 86.36 33.02 0)
@@ -2552,16 +2552,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "U1") (unit 1)
-        )
-        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
           (reference "U3") (unit 1)
         )
+        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
+          (reference "U6") (unit 1)
+        )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "U5") (unit 1)
+          (reference "U1") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "U7") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2604,7 +2604,7 @@
   (symbol (lib_id "Device:C") (at 106.68 140.97 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf2f29b1-23df-48d2-93a4-40bc23926ecd)
-    (property "Reference" "C10" (at 109.22 139.7 90)
+    (property "Reference" "C48" (at 109.22 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 101.6 139.7 90)
@@ -2621,16 +2621,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "C10") (unit 1)
+          (reference "C48") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "C14") (unit 1)
+          (reference "C51") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "C21") (unit 1)
+          (reference "C56") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "C28") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -2673,7 +2673,7 @@
   (symbol (lib_id "Device:C") (at 43.18 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfef208e-3e5b-4747-b120-ba119230f506)
-    (property "Reference" "C4" (at 40.64 33.02 0)
+    (property "Reference" "C14" (at 40.64 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 40.64 35.56 0)
@@ -2690,16 +2690,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "C4") (unit 1)
+          (reference "C14") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "C5") (unit 1)
+          (reference "C13") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "C15") (unit 1)
+          (reference "C3") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "C22") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2708,7 +2708,7 @@
   (symbol (lib_id "Device:C") (at 106.68 115.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1b92e58-0f03-4d94-aaa1-96001f4dda0f)
-    (property "Reference" "C3" (at 109.22 114.3 90)
+    (property "Reference" "C45" (at 109.22 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 101.6 114.3 90)
@@ -2725,16 +2725,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "C3") (unit 1)
+          (reference "C45") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "C9") (unit 1)
+          (reference "C49") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "C19") (unit 1)
+          (reference "C36") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "C26") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -2743,7 +2743,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 204.47 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3e03c3f-1125-42d7-b79f-36ea7ee77656)
-    (property "Reference" "RN2" (at 204.47 77.47 90)
+    (property "Reference" "RN27" (at 204.47 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 204.47 80.01 90)
@@ -2762,25 +2762,25 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "RN2") (unit 1)
+          (reference "RN27") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "RN10") (unit 1)
+          (reference "RN23") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
           (reference "RN18") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "RN26") (unit 1)
+          (reference "RN28") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 114.3 66.04 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8488fde-62a4-47b4-9ff5-baac747be17c)
-    (property "Reference" "TP1" (at 117.602 60.96 90)
+    (property "Reference" "TP8" (at 117.602 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 117.602 63.5 90)
@@ -2796,13 +2796,13 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "TP1") (unit 1)
+          (reference "TP8") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "TP3") (unit 1)
+          (reference "TP2") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "TP5") (unit 1)
+          (reference "TP1") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
           (reference "TP7") (unit 1)
@@ -2814,7 +2814,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 257.81 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid daaf2671-bfce-41d3-a31d-eebfbdd0b66d)
-    (property "Reference" "RN7" (at 257.81 116.84 90)
+    (property "Reference" "RN16" (at 257.81 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 257.81 119.38 90)
@@ -2833,16 +2833,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "RN7") (unit 1)
+          (reference "RN16") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "RN12") (unit 1)
+          (reference "RN25") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "RN20") (unit 1)
+          (reference "RN4") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "RN28") (unit 1)
+          (reference "RN7") (unit 1)
         )
       )
     )
@@ -2851,7 +2851,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 259.08 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db85be49-83f2-41b4-94b5-0479f2f73485)
-    (property "Reference" "RN4" (at 259.08 59.69 90)
+    (property "Reference" "RN13" (at 259.08 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 259.08 62.23 90)
@@ -2870,16 +2870,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "RN4") (unit 1)
+          (reference "RN13") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "RN15") (unit 1)
+          (reference "RN22") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "RN23") (unit 1)
+          (reference "RN2") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "RN31") (unit 1)
+          (reference "RN11") (unit 1)
         )
       )
     )
@@ -2888,7 +2888,7 @@
   (symbol (lib_id "OpenHW:FDMC8010DC") (at 215.9 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbea6e0e-cc92-4054-ad6f-05c7c007c83f)
-    (property "Reference" "Q3" (at 222.25 75.565 0)
+    (property "Reference" "Q22" (at 222.25 75.565 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FDMC8010DC" (at 222.25 78.105 0)
@@ -2911,25 +2911,25 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "Q3") (unit 1)
+          (reference "Q22") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "Q9") (unit 1)
+          (reference "Q20") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
-          (reference "Q15") (unit 1)
+          (reference "Q16") (unit 1)
         )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "Q21") (unit 1)
+          (reference "Q18") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 180.34 76.2 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc891185-db37-4bb2-88ff-127e2270edad)
-    (property "Reference" "J1" (at 179.705 72.39 0)
+    (property "Reference" "J7" (at 179.705 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 179.705 74.93 0)
@@ -2945,16 +2945,16 @@
     (instances
       (project "fpv_findland_esc"
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/e7fd4f58-b509-4a30-9f7c-d480524a9f33"
-          (reference "J1") (unit 1)
-        )
-        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
-          (reference "J4") (unit 1)
-        )
-        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
           (reference "J7") (unit 1)
         )
+        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/8407e2e3-2cad-4225-932f-793823f971f9"
+          (reference "J1") (unit 1)
+        )
+        (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/690cc11a-fb24-4e15-bdee-480c422a3a9b"
+          (reference "J9") (unit 1)
+        )
         (path "/2cfc6eb1-5e03-4b7e-aaa4-14496495cf61/01c4b67f-a928-441a-84eb-98d2fa93ea5e"
-          (reference "J10") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
