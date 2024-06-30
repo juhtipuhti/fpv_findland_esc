@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
-          "width": 1.0
+          "height": 33.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -122,10 +122,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.25,
+        "min_through_hole_diameter": 0.19,
         "min_track_width": 0.145,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.124,
+        "min_via_diameter": 0.445,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -428,8 +428,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -492,22 +492,22 @@
     ],
     [
       "e7fd4f58-b509-4a30-9f7c-d480524a9f33",
-      "Motor3"
+      "ESC3"
     ],
     [
       "8407e2e3-2cad-4225-932f-793823f971f9",
-      "Moto4"
+      "ESC4"
     ],
     [
       "690cc11a-fb24-4e15-bdee-480c422a3a9b",
-      "Motor2"
+      "ESC2"
     ],
     [
       "01c4b67f-a928-441a-84eb-98d2fa93ea5e",
-      "Motor1"
+      "ESC1"
     ]
   ],
   "text_variables": {
-    "revision": "Rev_0.3"
+    "revision": "Rev_1.0"
   }
 }
